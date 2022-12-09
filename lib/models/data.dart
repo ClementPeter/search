@@ -17,7 +17,7 @@ List<Data> socialData = [
   Data(title: "Love", number: 328),
   Data(title: "Thomas", number: 429),
   Data(title: "Jeremiah", number: 410),
-  Data(title: "Micheal", number: 112),
+  Data(title: "Micheal", number: 212),
   Data(title: "Matthew", number: 141),
   Data(title: "Joshua", number: 126),
   Data(title: "Joseph", number: 126),
