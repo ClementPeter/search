@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  //variable that stores the full content search item after the user has search
+  //variable that stores the full contents of the search item after the user has searched
   List<Data>? data;
 
   @override
