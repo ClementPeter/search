@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:search/models/data.dart';
 
@@ -76,10 +78,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
 
-          //Standard Search funtionality
-          
+          //Standard Search funtionality          
           if (data == null)
-            const Center(child: Text("I'm waiting for you to search a  name ")),
+            const Center(child: Text("I'm waiting for you to search a  name "),),
 
           if (data != null)
             ...List.generate(
@@ -105,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-//Not so effiecent wat of searching
+//Not so efficient way of searching
 
 // import 'package:flutter/material.dart';
 // import 'package:search/models/data.dart';
